@@ -1,0 +1,47 @@
+@charset "UTF-8";
+html, body {
+    font-size: 11pt;
+    font-family: georgia,'times new roman',times,serif;
+    color: black;
+}
+
+#header, div.breadcrumbs, #content-sidebar-wrap, #footer, #content-comments, #comments-link, #comments-form-all, div.step-links {
+    display: none;
+}
+
+object {
+    display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    font-size: 0
+    border: 0
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+h1, h2, h3 {
+    page-break-after: avoid;
+    color: black;
+}
+
+#content-all, #content-main {
+    width: 100%;
+    min-width: 0px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 0;
+    margin: 0;
+    page-break-before: avoid;
+    page-break-after: avoid;
+}
+
+
+div.post:first-child, div.body {
+    page-break-before: avoid;
+}
